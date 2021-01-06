@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+}
+
+h1.main-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+}
+
+.payment .card {
+  padding: 1rem;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  margin-right: 20px;
+}
+
+.payment .card__body {
+  padding: 0.5rem;
+}
+
+.payment .card__title {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+
+.payment .card__para {
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 3px;
+  min-height: 160px;
+}
+
+.payment .card--dark {
+  background-color: #262b2f;
+  color: #fff;
+  -webkit-box-shadow: 0px 8px 10px #000,  -10px 8px 15px #e5e5e5, 10px 8px 15px #000;
+          box-shadow: 0px 8px 10px #000,  -10px 8px 15px #e5e5e5, 10px 8px 15px #000;
+}
+
+.payment .card--light {
+  background-color: #F5FFFA;
+  -webkit-box-shadow: 0px 8px 10px #e5e5e5,  -10px 8px 15px #e5e5e5, 10px 8px 15px #e5e5e5;
+          box-shadow: 0px 8px 10px #e5e5e5,  -10px 8px 15px #e5e5e5, 10px 8px 15px #e5e5e5;
+}
+
+.payment .card__button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+}
+
+.payment .card__button--dark {
+  background-color: #262b2f;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
